@@ -1,3 +1,6 @@
+# Forked code base 
+This repository is forked from https://github.com/RaiderRobotix/blue-alliance-api-java-library maintained by RaiderRobotix. The RaiderRobotix crew did a lot of very good work in creating and maintaining the original code base. This code base is forked for the express purpose of making Metal Mustang (2410) adaptations as required for our scouting application.
+
 # The Blue Alliance API Java Library [![Build Status](https://travis-ci.org/RaiderRobotix/blue-alliance-api-java-library.svg?branch=master)](https://travis-ci.org/RaiderRobotix/blue-alliance-api-java-library)
 
 Java client library to retrieve data from The Blue Alliance using TBA API v3
