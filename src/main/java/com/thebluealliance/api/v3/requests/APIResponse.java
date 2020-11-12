@@ -8,6 +8,11 @@ import lombok.Value;
 @Value
 public class APIResponse {
 
+	public APIResponse(String jsonString, String lastModfieldIn, int responseCodeIn) {
+		json = jsonString;
+		lastModified = lastModfieldIn;
+		responseCode = responseCodeIn;
+	}
 	/**
 	 * @return The JSON string returned by the API. May be null if the <code>
 	 * responseCode</code> is not 200.

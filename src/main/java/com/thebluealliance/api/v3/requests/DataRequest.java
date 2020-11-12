@@ -20,6 +20,10 @@ public class DataRequest {
 
 	String AUTH_KEY;
 
+	public DataRequest(String authKeyIn) {
+		AUTH_KEY = authKeyIn;
+	}
+
 	/**
 	 * Retrieves data from TBA API using a URL, without a <code>If-Modified-Since</code> header
 	 *
