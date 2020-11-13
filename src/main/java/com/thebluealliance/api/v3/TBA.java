@@ -7,8 +7,6 @@ import com.thebluealliance.api.v3.requests.*;
  */
 public class TBA {
 
-	private static String AUTH_KEY;
-
 	/**
 	 * A {@link DataRequest} object to make direct calls to the API
 	 */
@@ -40,8 +38,7 @@ public class TBA {
 	 * @param authKey The Read API Key, generated on your <a href="https://www.thebluealliance.com/account">Account Dashboard</a> on The Blue Alliance
 	 */
 	public TBA(String authKey) {
-		AUTH_KEY = authKey;
-		dataRequest = new DataRequest(AUTH_KEY);
+		dataRequest = new DataRequest(authKey);
 		teamRequest = new TeamRequest(dataRequest);
 		eventRequest = new EventRequest(dataRequest);
 		districtRequest = new DistrictRequest(dataRequest);

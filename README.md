@@ -66,3 +66,15 @@ Note that you will need Gradle to compile this repository's source code if you d
 ## Contact
 
 Feel free to contact Spencer Ng at sng1488 (at) gmail (dot) com or create a pull request if you have any questions, fixes, or suggestions. 
+
+## Build notes
+(FRC 2410 Mentor)
+
+Following a successful project build or rebuild, perform a Gradle build.
+  1. Either select Gradle from the screen panel or using View | Tools Window | Gradle
+  2. Reload using the double arrow in the upper right section
+  3. Expend Task | Build
+  4. Double click 'build'
+  5. Double click 'jar'
+  
+Check that TBA Java APIv3.jar is created with the current date and time stamps.

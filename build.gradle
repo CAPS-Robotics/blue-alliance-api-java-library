@@ -18,4 +18,11 @@ dependencies {
 
 	implementation 'org.projectlombok:lombok:1.18.10'
 	annotationProcessor 'org.projectlombok:lombok:1.18.10'
+
+	jar {
+		from sourceSets.main.allSource
+	}
+	compileJava {
+		options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+	}
 }

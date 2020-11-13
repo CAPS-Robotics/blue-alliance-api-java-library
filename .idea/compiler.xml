@@ -10,6 +10,5 @@
         <module name="TBA_Java_APIv3.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8" />
   </component>
 </project>
