@@ -72,9 +72,17 @@ Feel free to contact Spencer Ng at sng1488 (at) gmail (dot) com or create a pull
 
 Following a successful project build or rebuild, perform a Gradle build.
   1. Either select Gradle from the screen panel or using View | Tools Window | Gradle
-  2. Reload using the double arrow in the upper right section
+  2. Reload Gradle using the double arrow in the upper right section
   3. Expend Task | Build
   4. Double click 'build'
   5. Double click 'jar'
+  Additional steps if the jason jar file is missing from the build/libs directory
+  6. Copy the gson-x.x.x.jar file to the build/libs directory
+  7. Reload Gradle
+  8. Repeat steps 3 - 5.
   
 Check that TBA Java APIv3.jar is created with the current date and time stamps.
+Check that the following files are generated
+ * out/artifacts/release/TBA-APIv3-Java-Library-2.0.jar
+ * out/artifacts/TBA_APIv3_Java_Library_X_X.jar/TBA_Java_APIv3_main.jar
+ 
